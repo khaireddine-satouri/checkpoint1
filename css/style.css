@@ -1,0 +1,97 @@
+.all{
+    margin:0px; 
+    padding: 0px;
+    font-family: roboto;
+    
+    
+}
+main,footer{
+    margin-left: 10px;
+    margin-right: 150px;
+}
+nav{
+    font-size:20px;
+    width: 100%;
+   height: 46px;
+ 
+    background: black;  
+}
+nav a{
+    display : inline-block;
+   
+ text-decoration: none;
+    color: rgba(255, 255, 255, 0.562);
+    width: 24.7%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;
+    
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    
+}
+
+
+
+a:hover{
+    
+    color:rgb(0, 183, 255);
+    border-bottom: 4px solid rgb(0, 183, 255);
+    
+}
+.ttr0{
+    font-size: 40px;
+    color:#3388BB;
+    border-bottom:2px solid #3388BB;
+}
+h2{
+   color: rgb(0, 183, 255);
+}
+.page{
+    width: 780px;
+    margin: auto;
+    font-size:16px;
+    border: 5px solid #3388BB;
+    border-radius: 10px;
+    padding:20px;
+    background-color:antiquewhite;
+}
+.infoto{
+    height: 250px;
+}
+.info{
+    float:left;
+}
+.photo{
+    float: right;
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+.sec-droite{
+    margin-left: 150px;/*pour que le texte 
+    soit alignés à 150px de la marge gauche */
+    font-size: 16px;
+    margin-top:38px ;
+}
+.ttr{
+    font-size: 28px;
+    color:  #3388BB ;
+    border-bottom: 3px solid #3388BB;
+}
+.duree{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+.titre{
+    font-weight: bold;
+    font-size: 16px;
+}
+strong{
+    font-size: 22px;
+}
